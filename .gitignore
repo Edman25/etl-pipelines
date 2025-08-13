@@ -1,0 +1,27 @@
+*#
+
+# Mac organization details
+*.DS_Store*
+
+# Data files
+*data/*
+*dst/*
+*.nc
+*.tif
+*.zip
+*.csv
+*.json
+# Pero NO ignores este archivo específico
+!data-storage/autores_llaves.json
+*.csv:Zone.Identifier
+
+
+# Python files/folders
+*.ipynb_checkpoints*
+*__pychache__*
+*.pyc
+*.py[c|o]
+
+# Environmental variables
+*.env*
+*credentials*
